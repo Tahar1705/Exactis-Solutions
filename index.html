@@ -1,1 +1,55 @@
 index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXACTIS SOLUTIONS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1F344A',
+            accent: '#00F2FF',
+            'accent-dark': '#00C6CC',
+            white: '#ffffff',
+          },
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            montserrat: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-primary text-white">
+  <header class="text-center py-12">
+    <h1 class="text-4xl font-montserrat font-bold">EXACTIS SOLUTIONS</h1>
+    <p class="mt-4 text-accent">La précision au service de votre croissance</p>
+  </header>
+
+  <main class="text-center py-20 px-6">
+    <h2 class="text-3xl font-bold mb-6">Bienvenue sur notre site officiel</h2>
+    <p class="text-lg mb-8 max-w-2xl mx-auto">
+      Nous proposons des solutions d'externalisation back-office sur mesure pour les TPE/PME françaises. Découvrez comment réduire vos coûts tout en améliorant votre efficacité.
+    </p>
+    <a href="#contact" class="bg-accent hover:bg-accent-dark text-primary font-bold py-4 px-8 rounded-full transition duration-300">Contactez-nous</a>
+  </main>
+
+  <footer class="text-center py-8 border-t border-accent text-sm">
+    <p>&copy; 2025 EXACTIS SOLUTIONS. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
